@@ -33,7 +33,7 @@ class ESP {
     public function expireDB() {
 	$time = $this->getTimestamp();
 	foreach ($this->db as $key => $val) {
-	    if (round(abs($time - $this->db[$key]['TIMESTAMP']), 0) >= 70) unset($this->db[$key]);
+	    if (round(abs($time - $this->db[$key]['TIMESTAMP']), 0) >= 120) unset($this->db[$key]);
 	}
     }
     

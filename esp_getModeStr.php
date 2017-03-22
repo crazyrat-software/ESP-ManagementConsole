@@ -6,12 +6,12 @@
     $App->loadDB();
     $App->expireDB();
     foreach ($App->db as $key => $val) {
-	$json = file_get_contents("http://".$val['IP']."/getGPIO");
-	$App->db[$key]['getGPIO'] = $json;
+	$json = file_get_contents("http://".$val['IP']."/getModeStr");
+	$App->db[$key]['getModeStr'] = $json;
 	$App->addElement();
 	if ($json) { $obj = json_decode($json); }
     }
     $App->saveDB();
     //print_r($App->db);
-    echo "getGPIO Objects: ".$obj->GPIOCount."\n";
+    echo "getModeStr Objects: ".$obj->GPIOCount."\n";
 ?>
