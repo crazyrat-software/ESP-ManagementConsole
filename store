@@ -1,1 +1,1 @@
-a:1:{s:29:"ESP8266_ESP-5E-CF-7F-2C-E4-D0";a:2:{s:2:"IP";s:13:"192.168.1.178";s:9:"TIMESTAMP";i:1490192336;}}
+a:2:{s:29:"ESP8266_ESP-5E-CF-7F-2C-E4-D0";a:3:{s:2:"IP";s:13:"192.168.1.178";s:9:"TIMESTAMP";i:1490195953;s:7:"getGPIO";s:205:"{"ESP8266": "5E:CF:7F:2C:E4:D0", "GPIOCount": 11, "GPIO": {"GPIO16": 1, "GPIO5": 0, "GPIO4": 0, "GPIO0": 1, "GPIO2": 1, "GPIO14": 1, "GPIO12": 1, "GPIO13": 1, "GPIO15": 0, "GPIO3": 0, "GPIO1": 0}, "A0": 2}";}s:0:"";a:2:{s:2:"IP";s:0:"";s:9:"TIMESTAMP";s:0:"";}}
